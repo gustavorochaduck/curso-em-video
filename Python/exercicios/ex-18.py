@@ -1,7 +1,7 @@
 import math
 angulo = float(input('Angulo: '))
-cos = math.acos(angulo)
-sin = math.asin(angulo)
+cos = round(math.cos(math.radians(angulo)),2)
+sin = round(math.sin(math.radians(angulo)),2)
 
 print(f'Valor do angulog: {angulo}')
 print(f'Valor do cos: {cos}')
