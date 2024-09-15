@@ -1,0 +1,6 @@
+se = str(input('Type one Setence: ')).strip()
+print(f'Number of times the letter A with upper appears in the Sentence: {se.count('A')}')
+print(f'Number of times the letter a with lower appears in the Sentence: {se.count('a')}')
+print(f'Number of times the letter (A) with upper and lower keys appears in the Sentence: {se.upper().count('A')}')
+print(f'The first letter appears in the position: {se.upper().replace(" ", "").find('A')+1}')
+print(f'The Last letter appears in the position: {se.upper().replace("", "").rfind('A')+1}')

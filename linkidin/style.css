@@ -1,0 +1,47 @@
+body{
+    background-image: url(backgroud/i-made-a-4k-pixelperfect-ascii-wallpaper-from-exploits-v0-g8ud4yocwbeb1.jpg);
+    filter: brightness(23%)
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.head_menu{
+    background:scroll;
+    background-color: black;
+    filter:opacity(40%);
+    display: list-item;
+    container:  ;
+}
+h1#nome_gustavo{
+    color: whitesmoke;
+}
+img#gustavo{
+    border-radius: 70%;
+    float: left;
+    
+}
+.text_01{
+    text-align: left;
+    color: rgb(46, 226, 80);
+    font-size: xx-large;
+    border-radius: 50%;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30%;
+}
+span#red_text{
+    color: red;
+}
+span#orange_text{
+    color: orange;
+}
+span#blue_text{
+    color: blue;
+}
+span#lilas_text{
+    color: rgb(182, 5, 182);
+}

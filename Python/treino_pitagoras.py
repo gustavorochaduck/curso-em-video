@@ -4,6 +4,7 @@ import random
 print('This is a Math Machine')
 print('This program dont save the questions!!!')
 print('Pitagoras - [1]')
+print()
 selecao_de_exercicios = int(input('Select: '))
 
 if selecao_de_exercicios == 1:
