@@ -39,7 +39,7 @@ print('---' * 20)
 print('User - {}'.format(user_attack))
 print('Computer - {}'.format(random_attack()))
 
-if user_attack == 'pedra' and random_attack(a) == 'tesoura':
+if user_attack == 'pedra' and random_attack() == 'tesoura':
     print('---' * 20)
     print(f'Voce ganhou!!!')
 elif user_attack == 'tesoura' and random_attack() == 'pedra':
