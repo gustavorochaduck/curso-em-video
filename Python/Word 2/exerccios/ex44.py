@@ -29,7 +29,7 @@ def cartao2():
 
 
 def cartao3():
-    c = ((5 * product_value) / 10) + product_value
+    c = ((20 * product_value) / 100) + product_value
     return c
 
 

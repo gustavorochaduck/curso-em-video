@@ -1,6 +1,9 @@
 from time import sleep
+import datetime
 name = str(input('Digite o seu nome: ').strip().lower())
-client_age = int(input('Digite a sua Idade: '))
+client_age_date = int(input('Digite a data do seu nacimento: '))
+today = datetime.date.today().year
+client_age = today - client_age_date
 
 if client_age < 9:
     print('-=-' * 20)

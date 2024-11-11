@@ -7,4 +7,4 @@ n4 = str(input('Quarto Aluno: '))
 
 lista_de_alunos01 = [n1, n2, n3, n4]
 random.shuffle(lista_de_alunos01)
-print(lista_de_alunos01)
+print(random.choices(lista_de_alunos01))
