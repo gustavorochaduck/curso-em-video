@@ -1,3 +1,4 @@
+import functions as fc
 import sys
 from time import sleep
 
@@ -17,11 +18,10 @@ print("[2] - SHOW")
 print("[3] - UPDATE")
 print("[4] - REMOVE")
 print("[5] - ADD")
-print(")")
+print("")
 selection = int(input("Digit: "))
 
 if selection == 1:
-    print("log")
-
+    print(fc.show(all))
 
 
