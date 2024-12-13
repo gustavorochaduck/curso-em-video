@@ -21,7 +21,7 @@ def conect_wifi_windows(ssid, password):
     conect = os.system(f'netsh wlan conect name={ssid} password=')
 def visible_wifi_windows():
     search_result = os.popen("netsh wlan show networks").read()
-    print(f'Wifi Seracg Result:')
+    print('Wifi Seracg Result:')
     print(serach_result)
 
 
