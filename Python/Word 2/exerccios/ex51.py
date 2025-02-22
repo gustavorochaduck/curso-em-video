@@ -8,7 +8,7 @@ rz = int(input('Razao: '))
 some = 0
 for x in range(FirstTerm, FirstTerm+10):
     if some >= 0:
-        print(f'\r{FirstTerm + some} --> ')
+        print(f'{FirstTerm + some} -->')
     else:
-        print(f'{FirstTerm + some}')
+        print(f'{FirstTerm + some} -->')
     some += rz
