@@ -6,4 +6,4 @@ window.prompt('Who are You?')
 // Aula 5
 window.alert('This part is of the class 05')
 var y = window.confirm('You Like JS?')
-alert('{var}')
+alert({y})
